@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   onebox:
-    container_name: onebox-client
+    container_name: {PROJECT_NAME}-client
     build:
       context: .
       dockerfile: Dockerfile
