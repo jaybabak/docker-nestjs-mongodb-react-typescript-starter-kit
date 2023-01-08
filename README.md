@@ -136,6 +136,7 @@ localhost:3000 onebox.dev
 |--|--|
 | help | Prints the help screen. |
 | up | Builds the application container and starts it with logging. |
+| build | Rebuilds the application container and starts it with logging. |
 | up-silent | Builds the application container and starts it in background mode, no active logging. |
 | down | Stops and removes the docker containers. |
 | stop | Stops the running containers. |
