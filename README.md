@@ -25,7 +25,7 @@ Clone the repository
 git clone git@github.com:jaybabak/onebox.git
 ```
 
-#### Change all references to {PROJECT_NAME} in all files (do find and replace) Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
+Change all references to {PROJECT_NAME} in all files (do find and replace) Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
 
 Change directory.
 
