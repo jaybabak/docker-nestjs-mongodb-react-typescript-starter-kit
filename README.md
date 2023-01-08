@@ -1,6 +1,10 @@
 # New Project Guidelines
 
-This is a boilerplate repository for creating a new Docker project using Node, NestJS, React, Mongo, Material-UI along with quick start commands (check Makefile/ReadMe). Best practices have been used and implemented to my knowledge to ensure the longevity of this project. Encourage pull requests for improving the workflow and processes + maintenance updates.
+This is a boilerplate repository for creating a new Docker project using Node, NestJS, React, Mongo, Material-UI along with quick start commands (check Makefile/ReadMe). 
+
+Best practices have been used and implemented to my knowledge to ensure the longevity of this project. Encourage pull requests for improving the workflow and processes + maintenance updates.
+
+This project includes the bare minimum for authentication and authorization e.g: a user is able to create an account and sign-in (with form validation on front-end).
 
 ## Dependancies
 
