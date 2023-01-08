@@ -11,6 +11,7 @@ The following dependancies have been added to improve developer workflow and bui
 *  **Nest.js** Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
 *  **Node.js** Core back-end technology
 *  **React JS** Core front-end technology
+*  **Material UI** Component library
 
 ## Getting started
 
@@ -26,7 +27,7 @@ git clone git@github.com:jaybabak/onebox.git
 Change directory.
 
 ```bash
-cd onebox/app
+cd /app
 ```
 
 Install Nest.js CLI globally
@@ -57,7 +58,7 @@ make up-silent
 In a new terminal window, change directory to "client" folder.
 
 ```bash
-cd onebox/client
+cd /client
 ```
 
 Run the following command to install the dependancies, make sure to be inside the "client" directory.
@@ -78,13 +79,13 @@ Connection string URL's:
 Access MongoDB outside Docker containers:
 
 ```bash
-mongodb://onebox:onebox@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.0
+mongodb://{PROJECT_NAME}:{PROJECT_NAME}@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.0
 ```
 
 Access MongoDB within the Docker containers, use this URL for the app to connect to MongoDB instance:
 
 ```bash
-mongodb://onebox:onebox@mongo:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.0
+mongodb://{PROJECT_NAME}:{PROJECT_NAME}@mongo:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.0
 ```
 
 
