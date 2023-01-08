@@ -1,0 +1,8 @@
+.progress-indicator-wrapper {
+  padding-top: 300px;
+}
+
+.progress-indicator {
+  max-width: 50%;
+  margin: 0 auto;
+}

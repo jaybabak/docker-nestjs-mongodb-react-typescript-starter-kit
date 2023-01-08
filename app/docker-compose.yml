@@ -1,0 +1,47 @@
+version: '3.7'
+
+services:
+  onebox:
+    container_name: onebox
+    build:
+      context: .
+      target: development
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+      - 9229:9229
+    command: npm run start:debug
+    env_file:
+      - .env
+    networks:
+      - onebox-network
+    depends_on:
+      - redis
+      - mongo
+  redis:
+    container_name: redis
+    image: redis:5
+    networks:
+      - onebox-network
+  mongo:
+    container_name: mongo
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: ${DB_DATABASE_NAME}
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./data:/data/db
+      - ./.config/mongo-entrypoint:/docker-entrypoint-initdb.d/"
+    ports:
+      - 27017:27017
+    networks:
+      - onebox-network
+networks:
+  onebox-network:
+volumes:
+  pgdata:
+  data:

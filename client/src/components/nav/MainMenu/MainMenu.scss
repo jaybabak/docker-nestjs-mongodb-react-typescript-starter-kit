@@ -1,0 +1,28 @@
+.logo {
+  a {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    &:active, &:visited {
+      color: white;
+    }
+  }
+}
+
+.main-navigation-wrapper {
+  .main-navigation-menu {
+    .menu-item {
+      display: inline-block;
+      list-style: none;
+      margin-right: 1rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+        &:active, &:visited {
+          color: white;
+        }
+      }
+    }
+  }
+}

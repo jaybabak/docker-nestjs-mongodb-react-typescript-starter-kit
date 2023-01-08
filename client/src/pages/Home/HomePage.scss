@@ -1,0 +1,31 @@
+.homepage-main-wrapper {
+  overflow: hidden;
+  max-height: 90.5vh;
+  overflow: hidden;
+}
+
+.hero-component-wrapper {
+  position: relative;
+
+  .hero-component-img {
+    // height: 100vh;
+    // height: 100vh;
+    // width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+
+  }
+
+  .hero-component-content {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    max-width: 340px;
+    transform: translate(-25%, -30%);
+    color: white;
+
+    h1 {
+      font-size: 42px;
+    }
+  }
+}
