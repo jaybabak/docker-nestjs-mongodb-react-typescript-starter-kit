@@ -1,6 +1,6 @@
 # New Project Guidelines
 
-This is the repository for the prototype of onebox which is used to share data such as links, text, URL's, files and photos quickly between devices.
+This is a boilerplate repository for creating a new Docker project using Node, NestJS, React, Mongo, Material-UI along with quick start commands (check Makefile/ReadMe). Best practices have been used and implemented to my knowledge to ensure the longevity of this project. Encourage pull requests for improving the workflow and processes + maintenance updates.
 
 ## Dependancies
 
@@ -10,6 +10,7 @@ The following dependancies have been added to improve developer workflow and bui
 *  **MongoDB** MongoDB database.
 *  **Nest.js** Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
 *  **Node.js** Core back-end technology
+*  **React JS** Core front-end technology
 
 ## Getting started
 
@@ -18,6 +19,9 @@ Clone the repository
 ```bash
 git clone git@github.com:jaybabak/onebox.git
 ```
+
+#### Change all references to {PROJECT_NAME} in all files (do find and replace)
+#### Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
 
 Change directory.
 
