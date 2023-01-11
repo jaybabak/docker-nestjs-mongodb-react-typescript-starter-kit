@@ -26,7 +26,7 @@ Clone the repository
 git clone https://github.com/jaybabak/docker-nestjs-mongodb-react-typescript-starter-kit
 ```
 
-Change all references to {PROJECT_NAME} in all files (do find and replace) Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
+**Change all references to {PROJECT_NAME} in all files (do find and replace)** Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
 
 Change directory.
 
