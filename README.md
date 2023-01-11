@@ -6,6 +6,8 @@ Best practices have been used and implemented to my knowledge to ensure the long
 
 This project includes the bare minimum for authentication and authorization e.g: a user is able to create an account and sign-in (with form validation on front-end).
 
+Step debugging through VS Code is enabled and launch.json provided (see below).
+
 ## Dependancies
 
 The following dependancies have been added to improve developer workflow and build the application.
@@ -13,7 +15,6 @@ The following dependancies have been added to improve developer workflow and bui
 *  **Docker** Docker is a containerization software.
 *  **MongoDB** MongoDB database.
 *  **Nest.js** Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
-*  **Node.js** Core back-end technology
 *  **React JS** Core front-end technology
 *  **Material UI** Component library
 
@@ -22,7 +23,7 @@ The following dependancies have been added to improve developer workflow and bui
 Clone the repository
 
 ```bash
-git clone git@github.com:jaybabak/onebox.git
+git clone https://github.com/jaybabak/docker-nestjs-mongodb-react-typescript-starter-kit
 ```
 
 Change all references to {PROJECT_NAME} in all files (do find and replace) Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
@@ -77,7 +78,11 @@ make up
 
 ## MongoDB
 
-Connection string URL's:
+Get connection string URL's, run the following command in **/app** directory.:
+
+```bash
+make db
+```
 
 Access MongoDB outside Docker containers:
 
@@ -103,7 +108,7 @@ Visit front-end [http://localhost:3000](http://localhost:3000).
 Update /etc/hosts (mac) if you want to use a custom development domain with the following:
 
 ```bash
-localhost:3000 onebox.dev
+localhost:3000 my-site.dev
 ```
 
 ## VS Code Launch.json config file
