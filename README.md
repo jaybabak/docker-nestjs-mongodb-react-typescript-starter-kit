@@ -26,6 +26,8 @@ Clone the repository, **change all references to {PROJECT_NAME} in all files (do
 git clone https://github.com/jaybabak/docker-nestjs-mongodb-react-typescript-starter-kit
 ```
 
+**Update .env files** bith client and app.
+
 Change directory.
 
 ```bash
