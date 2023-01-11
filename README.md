@@ -20,13 +20,11 @@ The following dependancies have been added to improve developer workflow and bui
 
 ## Getting started
 
-Clone the repository
+Clone the repository, **Change all references to {PROJECT_NAME} in all files (do find and replace)**, also ensure project name matches the root directory name Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
 
 ```bash
 git clone https://github.com/jaybabak/docker-nestjs-mongodb-react-typescript-starter-kit
 ```
-
-**Change all references to {PROJECT_NAME} in all files (do find and replace)** Eg: docker-compose.yml, Makefile, .env files (client/app) etc..
 
 Change directory.
 
