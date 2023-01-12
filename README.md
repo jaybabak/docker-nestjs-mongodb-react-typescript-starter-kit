@@ -2,9 +2,9 @@
 
 This is a boilerplate repository for creating a new Docker project using Node, NestJS, React, Mongo, Material-UI along with quick start commands (check Makefile/ReadMe). 
 
-Best practices have been used and implemented to my knowledge to ensure the longevity of this project. Encourage pull requests for improving the workflow and processes + maintenance updates.
+Best practices have been used and implemented to my knowledge to ensure the longevity of this project. For example a multi-database architecture is being used to distribute the load to the databases. Encourage pull requests for improving the workflow and processes + maintenance updates.
 
-This project includes the bare minimum for authentication and authorization e.g: a user is able to create an account and sign-in (with form validation on front-end).
+This project includes the bare minimum for authentication and authorization e.g: a user is able to create an account and sign-in (with password hashing, form validation on front-end).
 
 Step debugging through VS Code is enabled and launch.json provided (see below).
 
